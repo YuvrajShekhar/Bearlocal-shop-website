@@ -22,7 +22,7 @@ function App() {
           <ReviewsCard reviews={shopInfo.reviews} />
           <AboutCard about={shopInfo.about} />
           <ServicesCard services={shopInfo.services} />
-          <CtaCard phone={shopInfo.location.phone} />
+          {/* <CtaCard phone={shopInfo.location.phone} /> */}
         </div>
       </main>
 

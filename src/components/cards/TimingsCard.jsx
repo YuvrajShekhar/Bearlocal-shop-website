@@ -4,12 +4,12 @@ export const TimingsCard = ({ timings }) => {
         <h2 className="text-xl font-bold text-primary mb-4">Opening Hours</h2>
         <ul className="space-y-2">
           <li className="flex justify-between">
-            <span className="font-medium">Monday - Friday:</span>
+            <span className="font-medium">Monday - Saturday:</span>
             <span>{timings.weekdays}</span>
           </li>
           <li className="flex justify-between">
-            <span className="font-medium">Saturday - Sunday:</span>
-            <span>{timings.weekends}</span>
+            <span className="font-medium">Sunday:</span>
+            <span>{timings.sunday}</span>
           </li>
           <li className="italic text-gray-600">{timings.closed}</li>
         </ul>
