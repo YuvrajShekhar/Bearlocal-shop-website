@@ -18,7 +18,7 @@ export const shopInfo = {
       { id: 3, author: "New Visitor", rating: 5, comment: "Impressed with the quality." }
     ],
     googleMapsUrl: "https://search.google.com/local/reviews?placeid=yjhh2Z7ipHarCKo5A",
-    about: "We've been serving the community since 2010 with high-quality products and exceptional customer service. Our team is dedicated to making your shopping experience enjoyable and satisfying.",
+    about: "need to add content",
     services: [
       "WiFi Available",
       "Waiting Seats",
