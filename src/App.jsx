@@ -8,6 +8,7 @@ import { AboutCard } from './components/cards/AboutCard';
 import { ServicesCard } from './components/cards/ServicesCard';
 import { CtaCard } from './components/cards/CtaCard';
 import { shopInfo } from './data/shopData';
+import shop_photo from './assets/shop.png'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       
       <main className="container mx-auto px-4 py-8 flex-grow">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <HeroCard name={shopInfo.name} photo={shopInfo.photo} />
+          <HeroCard name={shopInfo.name} photo={shop_photo} />
           <TimingsCard timings={shopInfo.timings} />
           <ContactCard location={shopInfo.location} />
           <ReviewsCard reviews={shopInfo.reviews} />
